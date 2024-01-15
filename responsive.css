@@ -1,0 +1,7 @@
+@media screen and (max-width:576px) {
+    .nav-container, .nav-left,.nav-right ul{
+        flex-direction: column;
+        padding: 20px 75px;
+    }
+    
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+* {
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* nav styles */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 125px;
+
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-left p {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.nav_tra {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.nav-container img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 44px;
+
+
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: #424247;
+
+}
+
+.home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Explore Your Travel */
+
+.img-container {
+    background-image: url(styles/Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 85%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 135px;
+    border-radius: 16px;
+    position: relative;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0) 100%);
+}
+
+.img-title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center;
+
+}
+
+.input {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-top: 55px;
+    gap: 24px
+;
+}
+
+.img-title h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+
+.img-title p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* input styles */
+
+.input>input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
