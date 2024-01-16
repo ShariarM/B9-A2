@@ -8,7 +8,7 @@ body {
 }
 
 * {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0;
     padding: 0;
     /* display: flexbox; */
@@ -33,7 +33,8 @@ body {
     gap: 15px;
 }
 
-.nav-left p , .we {
+.nav-left p,
+.we {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
@@ -249,7 +250,7 @@ body {
     margin-top: 100px;
 }
 
-.choose-header h1 {
+.choose-header p {
     color: #131318;
     text-align: center;
     font-size: 40px;
@@ -280,15 +281,17 @@ body {
     margin-top: 48px;
 }
 
-.choose-title h3 {
+.ct {
     color: #131318;
-    text-align: center;
     font-size: 24px;
     font-weight: 800;
+    margin-top: 30px;
+    gap: 15px;
+    
 
 }
 
-.choose-title p {
+.choose-title  {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -298,11 +301,14 @@ body {
 .choose-title,
 .choose-right,
 .choose-center {
+    padding: 20px;
     width: 573px;
     height: 284px;
+    text-align: start;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    gap: 15px;
 }
 
 .choose-center {
@@ -409,23 +415,35 @@ body {
 }
 
 /* footer section */
+.footer-container {
+    
+    width: 1499px;
 
-.ft{
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
+
+.ft {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 110px;
 }
 
-.ft-title{
+.ft-title {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.ft-logo{
+.ft-logo {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.hr{
+    background: rgba(19, 19, 24, 0.10);
 }
